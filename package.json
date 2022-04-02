@@ -4,7 +4,10 @@
   "description": "Datastructures with JavaScript",
   "scripts": {
     "start": "parcel src/*.html --open",
-    "build": "parcel build src/index.html --dist-dir docs --public-url /"
+    "prebuild-dev": "shx rm -rf dist/*",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/rans0000/datastructures-with-js#readme",
   "devDependencies": {
-    "parcel": "^2.4.1"
+    "parcel": "^2.4.1",
+    "shx": "^0.3.4"
   }
 }
