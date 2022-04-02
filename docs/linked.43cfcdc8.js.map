@@ -1,0 +1,1 @@
+{"mappings":"AAAe,MACXA,QAAQC,IAAI,WCChBC","sources":["src/js/vendor/vendor.js","src/js/linked.js"],"sourcesContent":["const vendor = () => {\r\n    console.log('vendor');\r\n};\r\nexport default vendor","import vendor from './vendor/vendor';\r\n\r\nvendor();"],"names":["console","log","$78e1326a8d64f14a$export$2e2bcd8739ae039"],"version":3,"file":"linked.43cfcdc8.js.map"}
