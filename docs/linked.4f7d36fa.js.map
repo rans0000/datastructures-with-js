@@ -1,0 +1,1 @@
+{"mappings":"CAAeA,OAAS,KACpBC,QAAQC,IAAI","sources":["src/js/vendor/vendor.js"],"sourcesContent":["export default vendor = () => {\r\n    console.log('vendor');\r\n};"],"names":["vendor","console","log"],"version":3,"file":"linked.4f7d36fa.js.map"}
