@@ -1,0 +1,28 @@
+{
+  "name": "datastructures-with-js",
+  "version": "0.1.0",
+  "description": "Datastructures with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html --open",
+    "build": "parcel build src/*.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rans0000/datastructures-with-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "data-structures",
+    "d3js"
+  ],
+  "author": "rans0000@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rans0000/datastructures-with-js/issues"
+  },
+  "homepage": "https://github.com/rans0000/datastructures-with-js#readme",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
